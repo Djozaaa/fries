@@ -62,7 +62,7 @@
 
 .hero {
   height: 100vh;
-  background-image: url("/img/fries-hero-bg.jpg");
+  background-image: url("img/fries-hero-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -185,7 +185,7 @@
   left: 0;
   width: 200px;         
   height: 100%;         
-  background-image: url("/img/fries-multiply-bg.jpg");
+  background-image: url("img/fries-multiply-bg.jpg");
   background-repeat: repeat-y;
   background-size: contain;
   z-index: 0;           
