@@ -1,0 +1,318 @@
+
+* body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  color: #333;
+  }
+    
+
+  a {
+  text-decoration: none;
+  color: inherit;
+  }
+
+   
+  header {
+  background-color: #1b0d2c;
+  color: white;
+  padding: 50px 100px;
+  }
+
+  .allHeader {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #1b0d2c;
+  color: white;
+  padding: 20px 40px;
+}
+
+
+.left {
+  display: flex;          
+  align-items: center;    
+  gap: 10px;              
+  font-size: 14px;
+}
+
+.left img {
+  height: 45px;
+  width: 45px;
+}
+.text p {
+  margin: 8px;
+  display: flex;
+  flex-direction: column; 
+
+}
+.center {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+}
+
+.logo img {
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+
+
+
+.hero {
+  height: 100vh;
+  background-image: url("/home/liza/test/fries/img/fries-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative; 
+}
+
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;  
+  align-items: flex-start; 
+  gap: 10px;   
+  color: #fff;
+}
+
+
+.hero h3 {
+  font-size: 48px;
+  background-color: #1b0d2c;
+  display: inline-block;  
+  padding: 15px 25px;
+  margin: 0 0 10px 0;     
+}
+
+
+.hero h5 {
+  font-size: 16px;
+  background-color: #d4a017;
+  display: inline-block;  
+  padding: 5px 15px;
+  margin: 0;
+}
+
+
+
+.navi-gator2,.navi-gator {
+  display: flex;
+  justify-content: center;
+  gap: 40px; 
+}
+
+.navi-gator2 a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: inline-block;
+  width: 10ch;       
+  text-align: center;    
+  transition: color 0.3s ease, letter-spacing 0.3s ease;
+}
+
+.navi-gator2 a:hover {
+  color: #d4a017;
+  letter-spacing: 3px;   
+}
+
+.navi-gator a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  width: 10ch;;       
+  text-align: center;    
+  transition: color 0.3s ease, letter-spacing 0.3s ease;
+} 
+
+.navi-gator a:hover {
+  color: #d4a017;
+  letter-spacing: 3px;
+}
+
+
+
+.right {
+  color: white;
+  
+  
+  
+  text-align: right;
+  font-size: 14px;
+}
+
+.right a:hover {
+  color: #d4a017;
+}
+
+
+    
+.img {
+  position: relative;
+}
+
+
+
+  
+.features {
+  position: relative;
+   
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  background-repeat: repeat;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 300px;
+  
+}
+.fries-bg {
+  position: absolute;  
+  top: 0;
+  left: 0;
+  width: 200px;         
+  height: 100%;         
+  background-image: url("/home/liza/test/fries/img/fries-multiply-bg.jpg");
+  background-repeat: repeat-y;
+  background-size: contain;
+  z-index: 0;           
+}
+
+.colums {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;  
+  
+
+}
+
+.card {
+  
+  border-radius: 12px;
+  padding: 20px;
+  min-width: 250px;
+  
+  transition: transform 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  height: 260px;
+}
+
+  
+
+
+.card:hover {
+  transform: translateY(-5px);
+    
+}
+.card img {
+  height: 45px;
+  width: 45px; 
+}
+
+
+.colums div {
+  flex: 1;
+  background: rgb(236, 186, 78);
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  
+}
+
+.colums p:first-of-type {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+    
+
+
+    
+footer {
+  background: #1b0d2c;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.fo-contact {
+  margin-bottom: 20px;
+  font-size: 14px;
+
+  
+}
+
+.fo-link {
+  margin-bottom: 20px;
+}
+
+.fo-link a {
+  margin: 0 15px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.fo-link a:hover {
+  color: #d4a017;
+}
+
+iframe {
+  
+  width: 100%;
+  height: 400px;
+}
+.mini {
+  font-size: 12px;
+  color: #aaa;
+}
+.footer-img , .banner img {
+  width: 200px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.fo-img {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  margin: 20px 0;
+}
+
+.fo-img img {
+  width: 30px;     
+  height: 30px;   
+  object-fit: contain; 
+  cursor: pointer; 
+  transition: transform 0.3s ease;
+}
+
+.fo-img img:hover {
+  transform: scale(1.2); 
+}
+
+
